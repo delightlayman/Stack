@@ -1,5 +1,5 @@
 #include "stack.h"
-#define arrsize 10
+#define arrsize 1000
 void test_stack(Stack* s){
     srand(time(0));
     for(int i=0;i<arrsize;i++){
