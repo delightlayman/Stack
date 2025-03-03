@@ -7,7 +7,7 @@ void test_stack(Stack* s){
     }
     Printval(s);
     for(int i=0;i<arrsize;i++){
-        printf("top : %d,将其弹出。\n",StackTop(s));
+        printf("top : %d,弹出。\n",StackTop(s));
         StackPop(s);
         printf("空 : %d\n",isEmptyStack(s));
         Printval(s);
